@@ -1,0 +1,36 @@
+.custom-dropdown-menu {
+  min-width: 300px;
+  max-height: 600px;
+  overflow-y: auto;
+
+}
+
+.item {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.remove-button {
+  background-color: white;
+  border: none;
+  display: flex;
+  align-items: flex-start;
+}
+
+.cart-notification-container {
+  position: relative;
+}
+
+.cart-notification {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: red;
+  color: white;
+  border-radius: 50%;
+  padding: 4px 8px;
+  font-size: 12px;
+  transform: translate(200%, -80%);
+}

@@ -1,0 +1,25 @@
+.container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding-top: 1em;
+    padding-bottom: 1em;
+    padding-left: 2em;
+    padding-right: 2em;
+    font-size: 18px;
+    justify-content: space-between;
+}
+
+.link {
+    overflow: none;
+    text-decoration: none;
+    color: black;
+}
+
+.linkContainer {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    width: 70%;
+    justify-content: space-between;
+}

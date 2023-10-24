@@ -1,0 +1,40 @@
+.container{
+    display: flex;
+    flex-direction: column;
+    padding-left: 2em;
+    padding-right: 2em;
+    width: 100%;
+}
+
+.title {
+    font-size: 28px;
+    text-align: center;
+    margin-bottom: 1em;
+}
+
+.form{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+    flex-wrap: wrap;
+    align-items: center;
+}
+.form button {
+    height: 50%;
+}
+.formgroup input {
+    width: 100%;
+}
+
+.formgroup {
+    width: 27%;
+}
+
+.productsContainer{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
